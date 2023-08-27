@@ -33,6 +33,7 @@ font-family: 'Ubuntu', sans-serif; */
     height: 4rem;
 
     background-color: #F1F1F1;
+    /* background-color: black; */
     
 
     position: fixed;
@@ -40,6 +41,41 @@ font-family: 'Ubuntu', sans-serif; */
 
     z-index: +100;
  
+}
+
+#hamburgerMenu{
+    position: absolute;
+    /* border: 2px solid black; */
+    height: 1.8rem;
+    width: 2.6rem;
+
+    right: 1rem;
+
+}
+
+.hamburgerMenuBars{
+
+    width: 2.2rem;
+    height: 0.4rem;
+
+    background-color: red;
+
+    position: absolute;
+
+}
+
+.hamburgerMenuBar1{
+    top: 0;
+}
+.hamburgerMenuBar2{
+    top: 0.6rem;
+}
+.hamburgerMenuBar3{
+    top: 1.2rem;
+}
+
+.logoImageEdit{
+    width: 3rem;
 }
 
 .orgLogo{
