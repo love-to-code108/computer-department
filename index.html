@@ -1,25 +1,322 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Experiment</title>
 
+
+    <!-- LINKING THE FONTS GOES BELOW -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Borel&family=Courgette&family=Dancing+Script&family=JetBrains+Mono&family=Jost&family=Montserrat&family=Open+Sans&family=Pacifico&family=Poppins&family=Satisfy&family=Sora&family=Ubuntu&display=swap"
+        rel="stylesheet">
+
+
+
     <!-- LINKING THE FAVICON BELOW -->
     <link rel="shortcut icon" href="./assets/png/officialLogoForConference1.png" type="image/x-icon">
 
 
+
     <!-- LINKING THE STYLESHEETS BELOW -->
+    <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet" href="./output.css">
 
 </head>
+
+
 <body class=" 2xl:flex 2xl:flex-col 2xl:items-center">
 
-    <!-- THE NAVBAR GOES BELOW -->
+
+    <!-- THE LANDING ANIMATION SECTION -->
     <div>
 
     </div>
-    
-    
+
+
+
+    <!-- THE NAVBAR GOES BELOW -->
+    <div id="NavBar" class="flex justify-center items-center">
+
+        <div class="flex justify-center items-center">
+
+            <img class="logoImageEdit" src="./assets/png/officialLogoForConference1.png" alt="">
+
+        </div>
+
+
+        <div id="hamburgerMenu">
+            <div class="hamburgerMenuBars hamburgerMenuBar1"></div>
+            <div class="hamburgerMenuBars hamburgerMenuBar2"></div>
+            <div class="hamburgerMenuBars hamburgerMenuBar3"></div>
+        </div>
+
+
+        <!-- <div class="orgLogo">
+            <img class="orgLogoEdit" src="./assets/png/officialLogoForConference1.png" alt="">
+        </div> -->
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- THE HERO SECTION  -->
+    <div id="HeroSection">
+
+        <!-- THE HERO SECTION LINE1 -->
+        <p class="font-sora text-[#393464]
+        font-black text-lg mr-8">
+            1st International Conference on
+        </p>
+
+
+
+        <!-- THE HERO SECTION MAIN FOCUSED HEADING -->
+        <p class="font-sora text-[#393464]
+        font-black text-3xl mr-9">
+            Cognitive & Cloud <br> Computing
+        </p>
+
+
+
+
+        <!-- A WRAPPER FOR THE HERO SECTION TIME VENU AND 2 BUTTONS -->
+
+        <div class="flex flex-col items-start my-4 mr-4">
+
+
+            <div class="flex justify-center items-center
+        ">
+                <img class="h-6 mr-2 mb-2" src="./assets/svg/🔹Icon-Color.svg" alt="ImageOfACalander">
+
+                <p class="font-sora text-sm text-[#393464]
+            ">UEM Jaipur Campus</p>
+            </div>
+
+
+
+            <div class="flex justify-center items-center">
+                <img class="h-5 mr-2 mb-2" src="./assets/svg/calendar 2.svg" alt="">
+
+                <p class="font-sora text-sm text-[#393464]
+            ">1st February 2024 - 2nd February 2024</p>
+            </div>
+
+
+            <!-- MAKING THE BUTTONS -->
+
+
+            <a class="bg-[#393464] py-3 px-3 font-sora text-white
+                relative top-10 font-black rounded text-sm" href="">
+                CALL FOR PAPERS</a>
+
+
+            <a class="bg-[#ed3237] py-3 px-3 font-sora text-white
+                relative top-14 font-black rounded text-sm" href="">
+                SUBMISSION LINK</a>
+
+
+        </div>
+
+
+        <!-- THE HERO SECTION SCROLL ON HOOK -->
+
+        <img class="scrollHook" src="./assets/png/down.png" alt="">
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- THE SLIDING SECTION -->
+    <div id="SlidingSection" class="">
+
+        <div class="slidingWritingWrapper">
+            <p class="slidingLines slidingLine1 font-sora">Welcome To</p>
+            <p class="slidingLines slidingLine2 font-sora">Jaipur</p>
+        </div>
+
+
+        <div id="image1" class="imageSliders"></div>
+        <!-- <div id="image2" class="imageSliders"></div>
+        <div id="image3" class="imageSliders"></div> -->
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- THE IMPORTANT DATES SECTION -->
+    <div id="ImportantDatesSection">
+
+
+        <div class="h-20 importantDates ">
+            <p class="font-sora font-black text-4xl text-[#393464] ">Important Dates</p>
+        </div>
+
+
+        <!-- THE MIDDLE BORDER INSIDE THE TABLE  -->
+
+        <!-- VERTICAL HR -->
+        <div id="TableBreakerVertical">
+        </div>
+
+        <!-- HORIZONTAL HR 1 -->
+        <div id="TableBreakerHorizontal">
+        </div>
+
+        <!-- HORIZONTAL HR 2 -->
+        <div id="TableBreakerHorizontal2">
+        </div>
+
+
+
+        <!-- IMPORTANT DATES  -->
+        <div class="TheTable">
+            <div class="gridCellsHeading">Events</div>
+            <div class="gridCellsHeading">DeadLine</div>
+            <div class="gridCells">Full Paper Submission</div>
+            <div class="gridCells2">18th October 2023</div>
+            <div class="gridCells">Acceptance Notification</div>
+            <div class="gridCells2">4th November 2023</div>
+            <div class="gridCells Special">Camera Ready Paper Submission Deadline</div>
+            <div class="gridCells2">30th November 2023</div>
+            <div class="gridCells">Registration</div>
+            <div class="gridCells2">15th December 2023</div>
+            <div class="gridCells">Conference Date</div>
+            <div class="gridCells2">01-02 February 2024</div>
+
+        </div>
+
+
+        <div class="lineBreak"></div>
+        <div class="lineBreak"></div>
+        <!-- <div class="lineBreak"></div> -->
+
+
+        <!-- THE UPDATES SECTION -->
+        <div>
+
+            <div>
+                <p class="font-sora font-black text-4xl text-[#393464] my-4">Updates</p>
+            </div>
+
+            <ul class="Updates">
+                <li>[Regular Papers Track Submissions closed] for other tracks, please refer to the “Important Dates”
+                    table above</li>
+                <li>[Deadline extension] In view of several deadline extension requests, the extended deadline is August
+                    10 (final deadline)</li>
+                <li>[Keynote] hinTS: Threshold Signatures with Silent Setup (Sanjam Garg, UC Berkeley)</li>
+                <li>[Keynote] How to Train and Use AI Models on Sensitive Data without Compromising Privacy? (Nishanth
+                    Chandran, Microsoft Research)</li>
+                <li>[Invited Talk] Follow the Money (Thomas Silkjær, XRP Ledger Foundation)</li>
+
+            </ul>
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- THE IMPORTANT REMINDER SECTION -->
+    <div id="ImportantReminderSection">
+        <p class="text-4xl font-sora font-black
+        text-[#393464] mb-12">Important Reminder</p>
+
+        <div class="ImportantRemaindersCards">
+
+
+            <div class="importantReminderCard drop-shadow-md">
+                <p class="font-sora text-3xl my-8 text-[#393464] font-black">Call For Research Papers</p>
+                <p>Previously unpublished research manuscripts are invited for double-blind peer review process.
+                    Exceptional papers will be invited for their journal versions. More details…</p>
+            </div>
+
+
+
+            <div class="importantReminderCard drop-shadow-md">
+                <p class="font-sora text-3xl my-8 text-[#393464] font-black">Call For Research Papers</p>
+                <p>Previously unpublished research manuscripts are invited for double-blind peer review process.
+                    Exceptional papers will be invited for their journal versions. More details…</p>
+            </div>
+
+
+
+            <div class="importantReminderCard drop-shadow-md">
+                <p class="font-sora text-3xl my-8 text-[#393464] font-black">Call For Research Papers</p>
+                <p>Previously unpublished research manuscripts are invited for double-blind peer review process.
+                    Exceptional papers will be invited for their journal versions. More details…</p>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- THE CONTACT US SECTION  -->
+    <div>
+
+    </div>
+
+
+
+    <!-- THE GSAP PLUGIN GOES BELOW -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+
+    <!-- THE JAVASCRIPT LINKS WILL GO BELOW -->
+    <script></script>
+
 </body>
+
 </html>

@@ -1,3 +1,449 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* font-family: 'Bebas Neue', sans-serif;
+font-family: 'Borel', cursive;
+font-family: 'Courgette', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'JetBrains Mono', monospace;
+font-family: 'Jost', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Satisfy', cursive;
+font-family: 'Sora', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+
+/* SOME OF THE ROOT ELEMENTS ARE DEFINED BELOW */
+:root{
+
+    --ff--sora:'Sora', sans-serif;
+}
+.font-sora {
+    font-family: 'Sora', sans-serif;
+}
+
+/* THE NAVBAR SECTION  */
+#NavBar {
+
+    width: 100%;
+    height: 4rem;
+
+    background-color: #F1F1F1;
+    /* background-color: black; */
+    
+
+    position: fixed;
+    top: 0;
+
+    z-index: +100;
+ 
+}
+
+#hamburgerMenu{
+    position: absolute;
+    /* border: 2px solid black; */
+    height: 1.8rem;
+    width: 2.6rem;
+
+    right: 1rem;
+
+}
+
+.hamburgerMenuBars{
+
+    width: 2.2rem;
+    height: 0.4rem;
+
+    background-color: red;
+
+    position: absolute;
+
+}
+
+.hamburgerMenuBar1{
+    top: 0;
+}
+.hamburgerMenuBar2{
+    top: 0.6rem;
+}
+.hamburgerMenuBar3{
+    top: 1.2rem;
+}
+
+.logoImageEdit{
+    width: 3rem;
+}
+
+.orgLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    left: 1rem;
+}
+
+.orgLogoEdit{
+
+    height: 3rem;
+}
+
+
+
+
+/* THE HERO SECTION  */
+#HeroSection {
+
+    width: 100%;
+    height: 100svh;
+
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0 2rem;
+}
+
+.scrollHook {
+
+    position: absolute;
+    bottom: 0;
+
+    height: 2rem;
+
+    animation-name: ScrollBottomHook;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+
+}
+
+@keyframes ScrollBottomHook {
+    from {
+        transform: translateY(-1rem);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+
+}
+/* ======================================== */
+/* THE IMAGE SLIDER SECTION */
+#SlidingSection{
+    height: 98vh;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: end;
+
+    /* background-color: red; */
+    background-color: #F1F1F1;
+
+    position: relative;
+}
+
+.slidingWritingWrapper{
+    z-index: +10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    right: 2rem;
+    top: 8rem;
+}
+
+.slidingLines{
+
+    /* z-index: +10; */
+    font-size: 1.2rem;
+    font-weight: 900;
+
+    transform: 1s;
+
+    color: black;
+}
+
+.slidingLine1{
+    position: absolute;
+    top: 0.3rem;
+    right: 0;
+}
+
+.slidingLine2{
+
+    font-size: 5rem;
+}
+
+.imageSliders{
+    position: absolute;
+}
+
+
+@media (max-width:768px) {
+    
+    #image1{
+    
+        background-image: url(./assets//jpg/life-with-the-singh-sisters-6Vy39sRpeVo-unsplash.jpg);
+    
+        width: 100%;
+        height: 100%;
+    
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        background-position: center center;
+
+
+
+        transform: 1s;
+    }
+
+
+
+    #image2{
+    
+        background-image: url(./assets//jpg/aman-ravi-bZSYDSDoyns-unsplash.jpg);
+    
+        width: 100%;
+        height: 100%;
+    
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        background-position: center center;
+
+
+        transform: 1s;
+    }
+
+
+
+
+    #image3{
+    
+        background-image: url(./assets//jpg/annie-spratt-KovxPeamVts-unsplash.jpg);
+    
+        width: 100%;
+        height: 100%;
+    
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        background-position: center center;
+
+        transform: 1s;
+    }
+}
+
+
+
+
+
+
+/* ======================================== */
+/* THE IMPORTANT DATES SECTION */
+#ImportantDatesSection{
+
+    width: 100%;
+    /* height: 110svh; */
+
+    background-color: #F1F1F1;
+
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+
+    padding-top: 10rem;
+}
+
+#TableBreakerVertical{
+
+    width: 2px;
+    background-color: rgb(137, 137, 137);
+    height: 17rem;
+
+    position: absolute;
+    top: 10rem;
+}
+
+#TableBreakerHorizontal{
+    width: 92.1%;
+    max-width: 29.1rem;
+    background-color: rgb(137, 137, 137);
+    height: 2px;
+
+    /* rotate: 90deg; */
+
+    position: absolute;
+    top: 10rem;
+
+}
+
+#TableBreakerHorizontal2{
+    width: 92.1%;
+    max-width: 29.1rem;
+    background-color: rgb(137, 137, 137);
+    height: 2px;
+
+    /* rotate: 90deg; */
+
+    position: absolute;
+    top: 13.4rem;
+
+}
+
+.importantDates{
+
+    /* margin-top: 4rem; */
+    position: absolute;
+    top: 5rem;
+    left: 1rem;
+}
+
+.TheTable{
+    display: grid;
+    grid-template-columns: 50% 50% ;
+
+    column-gap: 1px;
+    row-gap: 10px;
+
+    /* border: 2px solid black; */
+    
+}
+
+.Special{
+
+    margin-left: 0.1rem;
+}
+.gridCells{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    margin-left: 0.2rem;
+
+    font-family: var(--ff--sora);
+
+    font-size: 0.9rem;
+
+    /* margin-right: rem; */
+    /* border: 2px solid black ; */
+}
+
+.gridCells2{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: var(--ff--sora);
+
+    font-size: 0.9rem;
+}
+
+.gridCellsHeading{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 0.6rem;
+
+    background-color: #E7E7E7;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    font-family: var(--ff--sora);
+    font-weight: 700;
+    color: #393464;
+
+    
+}
+
+.lineBreak{
+    width: 100%;
+    height: 2rem;
+
+    /* background-color: red; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* THE UPDATES SECTION */
+.Updates{
+
+    list-style-type: disc;
+    padding-left: 1rem;
+}
+
+
+
+
+
+
+
+/* THE IMPORTANT REMINDER SECTION */
+#ImportantReminderSection{
+
+    width: 100%;
+    /* height: 100vh; */
+    background-color: #F1F1F1;
+    /* background-color: red; */
+
+    padding: 4rem 1rem;
+    padding-bottom: 0.6rem;
+}
+
+
+.ImportantRemaindersCards{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.importantReminderCard{
+
+    width: 22rem;
+    height: 20rem;
+
+    background-color: white;
+
+    margin-bottom: 1rem;
+    border-radius: 0.2rem;
+
+    padding: 1rem;
+}
+
+
+
+/* THE CONTACT US SECTION */
