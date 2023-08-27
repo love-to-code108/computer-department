@@ -136,8 +136,124 @@ font-family: 'Ubuntu', sans-serif; */
     }
 
 }
+/* ======================================== */
+/* THE IMAGE SLIDER SECTION */
+#SlidingSection{
+    height: 98vh;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: end;
+
+    /* background-color: red; */
+    background-color: #F1F1F1;
+
+    position: relative;
+}
+
+.slidingWritingWrapper{
+    z-index: +10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    right: 2rem;
+    top: 8rem;
+}
+
+.slidingLines{
+
+    /* z-index: +10; */
+    font-size: 1.2rem;
+    font-weight: 900;
+
+    transform: 1s;
+
+    color: black;
+}
+
+.slidingLine1{
+    position: absolute;
+    top: 0.3rem;
+    right: 0;
+}
+
+.slidingLine2{
+
+    font-size: 5rem;
+}
+
+.imageSliders{
+    position: absolute;
+}
 
 
+@media (max-width:700px) {
+    
+    #image1{
+    
+        background-image: url(./assets//jpg/life-with-the-singh-sisters-6Vy39sRpeVo-unsplash.jpg);
+    
+        width: 100%;
+        height: 100%;
+    
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        background-position: center center;
+
+
+
+        transform: 1s;
+    }
+
+
+
+    #image2{
+    
+        background-image: url(./assets//jpg/aman-ravi-bZSYDSDoyns-unsplash.jpg);
+    
+        width: 100%;
+        height: 100%;
+    
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        background-position: center center;
+
+
+        transform: 1s;
+    }
+
+
+
+
+    #image3{
+    
+        background-image: url(./assets//jpg/annie-spratt-KovxPeamVts-unsplash.jpg);
+    
+        width: 100%;
+        height: 100%;
+    
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        background-position: center center;
+
+        transform: 1s;
+    }
+}
+
+
+
+
+
+
+/* ======================================== */
 /* THE IMPORTANT DATES SECTION */
 #ImportantDatesSection{
 
@@ -168,7 +284,8 @@ font-family: 'Ubuntu', sans-serif; */
 }
 
 #TableBreakerHorizontal{
-    width: 92.5%;
+    width: 92.1%;
+    max-width: 29.1rem;
     background-color: rgb(137, 137, 137);
     height: 2px;
 
@@ -180,7 +297,8 @@ font-family: 'Ubuntu', sans-serif; */
 }
 
 #TableBreakerHorizontal2{
-    width: 92.5%;
+    width: 92.1%;
+    max-width: 29.1rem;
     background-color: rgb(137, 137, 137);
     height: 2px;
 
@@ -269,6 +387,16 @@ font-family: 'Ubuntu', sans-serif; */
 
 
 
+
+
+
+
+
+
+
+
+
+
 /* THE UPDATES SECTION */
 .Updates{
 
@@ -277,7 +405,7 @@ font-family: 'Ubuntu', sans-serif; */
 }
 
 
-/* THE SLIDING SECTION  */
+
 
 
 
