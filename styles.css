@@ -18,6 +18,10 @@ font-family: 'Ubuntu', sans-serif; */
 
 
 /* SOME OF THE ROOT ELEMENTS ARE DEFINED BELOW */
+:root{
+
+    --ff--sora:'Sora', sans-serif;
+}
 .font-sora {
     font-family: 'Sora', sans-serif;
 }
@@ -102,7 +106,7 @@ font-family: 'Ubuntu', sans-serif; */
 #ImportantDatesSection{
 
     width: 100%;
-    height: 150svh;
+    /* height: 110svh; */
 
     background-color: #F1F1F1;
 
@@ -120,7 +124,7 @@ font-family: 'Ubuntu', sans-serif; */
 #TableBreakerVertical{
 
     width: 2px;
-    background-color: black;
+    background-color: rgb(137, 137, 137);
     height: 17rem;
 
     position: absolute;
@@ -129,7 +133,7 @@ font-family: 'Ubuntu', sans-serif; */
 
 #TableBreakerHorizontal{
     width: 92.5%;
-    background-color: black;
+    background-color: rgb(137, 137, 137);
     height: 2px;
 
     /* rotate: 90deg; */
@@ -141,7 +145,7 @@ font-family: 'Ubuntu', sans-serif; */
 
 #TableBreakerHorizontal2{
     width: 92.5%;
-    background-color: black;
+    background-color: rgb(137, 137, 137);
     height: 2px;
 
     /* rotate: 90deg; */
@@ -181,6 +185,10 @@ font-family: 'Ubuntu', sans-serif; */
 
     margin-left: 0.2rem;
 
+    font-family: var(--ff--sora);
+
+    font-size: 0.9rem;
+
     /* margin-right: rem; */
     /* border: 2px solid black ; */
 }
@@ -190,6 +198,10 @@ font-family: 'Ubuntu', sans-serif; */
     display: flex;
     justify-content: center;
     align-items: center;
+
+    font-family: var(--ff--sora);
+
+    font-size: 0.9rem;
 }
 
 .gridCellsHeading{
@@ -200,21 +212,33 @@ font-family: 'Ubuntu', sans-serif; */
 
     margin-bottom: 0.6rem;
 
-    background-color: gray;
+    background-color: #E7E7E7;
     padding-top: 1rem;
     padding-bottom: 1rem;
 
+    font-family: var(--ff--sora);
+    font-weight: 700;
+    color: #393464;
+
     
+}
+
+.lineBreak{
+    width: 100%;
+    height: 2rem;
+
+    /* background-color: red; */
 }
 
 
 
 
-
-
 /* THE UPDATES SECTION */
+.Updates{
 
-
+    list-style-type: disc;
+    padding-left: 1rem;
+}
 
 
 /* THE SLIDING SECTION  */
@@ -223,7 +247,38 @@ font-family: 'Ubuntu', sans-serif; */
 
 
 /* THE IMPORTANT REMINDER SECTION */
+#ImportantReminderSection{
 
+    width: 100%;
+    /* height: 100vh; */
+    background-color: #F1F1F1;
+    /* background-color: red; */
+
+    padding: 4rem 1rem;
+    padding-bottom: 0.6rem;
+}
+
+
+.ImportantRemaindersCards{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.importantReminderCard{
+
+    width: 22rem;
+    height: 20rem;
+
+    background-color: white;
+
+    margin-bottom: 1rem;
+    border-radius: 0.2rem;
+
+    padding: 1rem;
+}
 
 
 
