@@ -18,26 +18,45 @@ font-family: 'Ubuntu', sans-serif; */
 
 
 /* SOME OF THE ROOT ELEMENTS ARE DEFINED BELOW */
-.font-sora{
-    font-family:'Sora', sans-serif;
+.font-sora {
+    font-family: 'Sora', sans-serif;
 }
 
 /* THE NAVBAR SECTION  */
-#NavBar{
+#NavBar {
 
     width: 100%;
     height: 4rem;
 
     background-color: #F1F1F1;
-    display: flex;
+    
 
     position: fixed;
     top: 0;
+
+    z-index: +100;
+ 
+}
+
+.orgLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    left: 1rem;
+}
+
+.orgLogoEdit{
+
+    height: 3rem;
 }
 
 
+
+
 /* THE HERO SECTION  */
-#HeroSection{
+#HeroSection {
 
     width: 100%;
     height: 100svh;
@@ -49,10 +68,10 @@ font-family: 'Ubuntu', sans-serif; */
     align-items: center;
     justify-content: center;
 
-    padding:0 2rem ;
+    padding: 0 2rem;
 }
 
-.scrollHook{
+.scrollHook {
 
     position: absolute;
     bottom: 0;
@@ -60,7 +79,7 @@ font-family: 'Ubuntu', sans-serif; */
     height: 2rem;
 
     animation-name: ScrollBottomHook;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 
@@ -68,17 +87,127 @@ font-family: 'Ubuntu', sans-serif; */
 }
 
 @keyframes ScrollBottomHook {
-    from{
+    from {
         transform: translateY(-1rem);
     }
-    to{
+
+    to {
         transform: translateY(0);
     }
-    
+
 }
 
 
 /* THE IMPORTANT DATES SECTION */
+#ImportantDatesSection{
+
+    width: 100%;
+    height: 150svh;
+
+    background-color: #F1F1F1;
+
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+
+    padding-top: 10rem;
+}
+
+#TableBreakerVertical{
+
+    width: 2px;
+    background-color: black;
+    height: 17rem;
+
+    position: absolute;
+    top: 10rem;
+}
+
+#TableBreakerHorizontal{
+    width: 92.5%;
+    background-color: black;
+    height: 2px;
+
+    /* rotate: 90deg; */
+
+    position: absolute;
+    top: 10rem;
+
+}
+
+#TableBreakerHorizontal2{
+    width: 92.5%;
+    background-color: black;
+    height: 2px;
+
+    /* rotate: 90deg; */
+
+    position: absolute;
+    top: 13.4rem;
+
+}
+
+.importantDates{
+
+    /* margin-top: 4rem; */
+    position: absolute;
+    top: 5rem;
+    left: 1rem;
+}
+
+.TheTable{
+    display: grid;
+    grid-template-columns: 50% 50% ;
+
+    column-gap: 1px;
+    row-gap: 10px;
+
+    /* border: 2px solid black; */
+    
+}
+
+.Special{
+
+    margin-left: 0.1rem;
+}
+.gridCells{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    margin-left: 0.2rem;
+
+    /* margin-right: rem; */
+    /* border: 2px solid black ; */
+}
+
+.gridCells2{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gridCellsHeading{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 0.6rem;
+
+    background-color: gray;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    
+}
+
+
 
 
 
