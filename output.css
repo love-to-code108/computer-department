@@ -840,7 +840,7 @@ font-family: 'Ubuntu', sans-serif; */
   position: absolute;
 }
 
-@media (max-width:700px) {
+@media (max-width:768px) {
   #image1{
     background-image: url(./assets//jpg/life-with-the-singh-sisters-6Vy39sRpeVo-unsplash.jpg);
     width: 100%;
