@@ -958,6 +958,10 @@ font-family: 'Ubuntu', sans-serif; */
     background-position: center center;
     transform: 1s;
   }
+
+  .slidingLines {
+    color: black;
+  }
 }
 
 /* ======================================== */

@@ -378,6 +378,10 @@ font-family: 'Ubuntu', sans-serif; */
 
         transform: 1s;
     }
+
+    .slidingLines {
+        color: black;
+    }
 }
 
 
