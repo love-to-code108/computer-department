@@ -815,6 +815,26 @@ font-family: 'Ubuntu', sans-serif; */
   }
 }
 
+@media (min-width:1024px) {
+  .scrollHook {
+    position: absolute;
+    bottom: 0;
+    left: 49%;
+    height: 2rem;
+    animation-name: ScrollBottomHook;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+}
+
+@media (min-width:1536px) {
+  #HeroSection{
+    padding-top: 4rem;
+    padding-left: 6rem;
+  }
+}
+
 /* ======================================== */
 
 /* THE IMAGE SLIDER SECTION */
@@ -1173,6 +1193,49 @@ font-family: 'Ubuntu', sans-serif; */
   }
 }
 
+@media (min-width:1280px) {
+  .ImportantRemaindersCards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .importantReminderCard{
+    width: 22rem;
+    height: 20rem;
+    background-color: white;
+    border-radius: 0.2rem;
+    padding: 1rem;
+    margin: 0rem 1rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (min-width:1546px) {
+  .ImportantRemaindersCards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .importantReminderCard{
+    width: 25rem;
+    height: 23rem;
+    background-color: white;
+    border-radius: 0.2rem;
+    padding: 1rem 2rem;
+    margin: 0rem 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .linneBreak3{
+    height: 1rem;
+    width: 100%;
+  }
+}
+
 /* THE CONTACT US SECTION */
 
 @media (min-width: 640px) {
@@ -1215,6 +1278,23 @@ font-family: 'Ubuntu', sans-serif; */
   }
 }
 
+@media (min-width: 1024px) {
+  .lg\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .lg\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+
+  .lg\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+}
+
 @media (min-width: 1536px) {
   .\32xl\:flex {
     display: flex;
@@ -1226,5 +1306,30 @@ font-family: 'Ubuntu', sans-serif; */
 
   .\32xl\:items-center {
     align-items: center;
+  }
+
+  .\32xl\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .\32xl\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .\32xl\:text-8xl {
+    font-size: 6rem;
+    line-height: 1;
+  }
+
+  .\32xl\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .\32xl\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }
