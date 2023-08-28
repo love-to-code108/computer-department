@@ -695,12 +695,40 @@ font-family: 'Ubuntu', sans-serif; */
 
 /* SOME OF THE ROOT ELEMENTS ARE DEFINED BELOW */
 
-:root{
-  --ff--sora:'Sora', sans-serif;
+:root {
+  --ff--sora: 'Sora', sans-serif;
 }
 
 .font-sora {
   font-family: 'Sora', sans-serif;
+}
+
+/* THE SELECTION COLORS */
+
+::-moz-selection {
+  /* Code for Firefox */
+  color: white;
+  background: #393464;
+}
+
+::selection {
+  color: white;
+  background: #393464;
+}
+
+/* THE SCROLLBAR */
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #393464;
+  border-radius: 14px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
 }
 
 /* THE NAVBAR SECTION  */
@@ -715,7 +743,7 @@ font-family: 'Ubuntu', sans-serif; */
   z-index: +100;
 }
 
-#hamburgerMenu{
+#hamburgerMenu {
   position: absolute;
   /* border: 2px solid black; */
   height: 1.8rem;
@@ -723,30 +751,30 @@ font-family: 'Ubuntu', sans-serif; */
   right: 1rem;
 }
 
-.hamburgerMenuBars{
+.hamburgerMenuBars {
   width: 2.2rem;
   height: 0.4rem;
   background-color: red;
   position: absolute;
 }
 
-.hamburgerMenuBar1{
+.hamburgerMenuBar1 {
   top: 0;
 }
 
-.hamburgerMenuBar2{
+.hamburgerMenuBar2 {
   top: 0.6rem;
 }
 
-.hamburgerMenuBar3{
+.hamburgerMenuBar3 {
   top: 1.2rem;
 }
 
-.logoImageEdit{
+.logoImageEdit {
   width: 3rem;
 }
 
-.orgLogo{
+.orgLogo {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -754,7 +782,7 @@ font-family: 'Ubuntu', sans-serif; */
   left: 1rem;
 }
 
-.orgLogoEdit{
+.orgLogoEdit {
   height: 3rem;
 }
 
@@ -792,7 +820,7 @@ font-family: 'Ubuntu', sans-serif; */
 }
 
 @media (min-width:640px) {
-  #HeroSection{
+  #HeroSection {
     width: 100%;
     height: 100svh;
     background-color: white;
@@ -829,7 +857,7 @@ font-family: 'Ubuntu', sans-serif; */
 }
 
 @media (min-width:1536px) {
-  #HeroSection{
+  #HeroSection {
     padding-top: 4rem;
     padding-left: 6rem;
   }
@@ -839,7 +867,7 @@ font-family: 'Ubuntu', sans-serif; */
 
 /* THE IMAGE SLIDER SECTION */
 
-#SlidingSection{
+#SlidingSection {
   height: 100vh;
   width: 100%;
   display: flex;
@@ -851,7 +879,7 @@ font-family: 'Ubuntu', sans-serif; */
   position: relative;
 }
 
-.slidingWritingWrapper{
+.slidingWritingWrapper {
   z-index: +10;
   display: flex;
   flex-direction: column;
@@ -862,7 +890,7 @@ font-family: 'Ubuntu', sans-serif; */
   top: 8rem;
 }
 
-.slidingLines{
+.slidingLines {
   /* z-index: +10; */
   font-size: 1.2rem;
   font-weight: 900;
@@ -870,22 +898,22 @@ font-family: 'Ubuntu', sans-serif; */
   color: black;
 }
 
-.slidingLine1{
+.slidingLine1 {
   position: absolute;
   top: 0.3rem;
   right: 0;
 }
 
-.slidingLine2{
+.slidingLine2 {
   font-size: 5rem;
 }
 
-.imageSliders{
+.imageSliders {
   position: absolute;
 }
 
 @media (max-width:1920px) {
-  #image1{
+  #image1 {
     background-image: url(./assets/jpg/yuvraj-verma-W4Z1ldLAaAQ-unsplash.jpg);
     width: 100%;
     height: 100%;
@@ -895,13 +923,13 @@ font-family: 'Ubuntu', sans-serif; */
     transform: 1s;
   }
 
-  .slidingLines{
+  .slidingLines {
     color: white;
   }
 }
 
 @media (max-width:768px) {
-  #image1{
+  #image1 {
     background-image: url(./assets//jpg/life-with-the-singh-sisters-6Vy39sRpeVo-unsplash.jpg);
     width: 100%;
     height: 100%;
@@ -911,7 +939,7 @@ font-family: 'Ubuntu', sans-serif; */
     transform: 1s;
   }
 
-  #image2{
+  #image2 {
     background-image: url(./assets//jpg/aman-ravi-bZSYDSDoyns-unsplash.jpg);
     width: 100%;
     height: 100%;
@@ -921,7 +949,7 @@ font-family: 'Ubuntu', sans-serif; */
     transform: 1s;
   }
 
-  #image3{
+  #image3 {
     background-image: url(./assets//jpg/annie-spratt-KovxPeamVts-unsplash.jpg);
     width: 100%;
     height: 100%;
@@ -936,7 +964,7 @@ font-family: 'Ubuntu', sans-serif; */
 
 /* THE IMPORTANT DATES SECTION */
 
-#ImportantDatesSection{
+#ImportantDatesSection {
   width: 100%;
   /* height: 110svh; */
   background-color: #F1F1F1;
@@ -948,7 +976,7 @@ font-family: 'Ubuntu', sans-serif; */
   padding-top: 10rem;
 }
 
-#TableBreakerVertical{
+#TableBreakerVertical {
   width: 2px;
   background-color: rgb(137, 137, 137);
   height: 17rem;
@@ -956,7 +984,7 @@ font-family: 'Ubuntu', sans-serif; */
   top: 10rem;
 }
 
-#TableBreakerHorizontal{
+#TableBreakerHorizontal {
   width: 92.1%;
   max-width: 29.1rem;
   background-color: rgb(137, 137, 137);
@@ -966,7 +994,7 @@ font-family: 'Ubuntu', sans-serif; */
   top: 10rem;
 }
 
-#TableBreakerHorizontal2{
+#TableBreakerHorizontal2 {
   width: 92.1%;
   max-width: 29.1rem;
   background-color: rgb(137, 137, 137);
@@ -976,27 +1004,27 @@ font-family: 'Ubuntu', sans-serif; */
   top: 13.4rem;
 }
 
-.importantDates{
+.importantDates {
   /* margin-top: 4rem; */
   position: absolute;
   top: 5rem;
   left: 1rem;
 }
 
-.TheTable{
+.TheTable {
   display: grid;
-  grid-template-columns: 50% 50% ;
+  grid-template-columns: 50% 50%;
   -moz-column-gap: 1px;
        column-gap: 1px;
   row-gap: 10px;
   /* border: 2px solid black; */
 }
 
-.Special{
+.Special {
   margin-left: 0.1rem;
 }
 
-.gridCells{
+.gridCells {
   display: flex;
   justify-content: start;
   align-items: center;
@@ -1007,7 +1035,7 @@ font-family: 'Ubuntu', sans-serif; */
   /* border: 2px solid black ; */
 }
 
-.gridCells2{
+.gridCells2 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1015,7 +1043,7 @@ font-family: 'Ubuntu', sans-serif; */
   font-size: 0.9rem;
 }
 
-.gridCellsHeading{
+.gridCellsHeading {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1028,14 +1056,14 @@ font-family: 'Ubuntu', sans-serif; */
   color: #393464;
 }
 
-.lineBreak{
+.lineBreak {
   width: 100%;
   height: 2rem;
   /* background-color: red; */
 }
 
 @media (min-width:640px) {
-  #ImportantDatesSection{
+  #ImportantDatesSection {
     width: 100%;
     /* height: 110svh; */
     background-color: #F1F1F1;
@@ -1047,16 +1075,16 @@ font-family: 'Ubuntu', sans-serif; */
     padding-top: 10rem;
   }
 
-  .importantDates{
+  .importantDates {
     /* margin-top: 4rem; */
     position: absolute;
     top: 5rem;
     left: 2rem;
   }
 
-  .TheTable{
+  .TheTable {
     display: grid;
-    grid-template-columns: 50% 50% ;
+    grid-template-columns: 50% 50%;
     -moz-column-gap: 1px;
          column-gap: 1px;
     row-gap: 10px;
@@ -1065,13 +1093,13 @@ font-family: 'Ubuntu', sans-serif; */
     left: 2rem;
   }
 
-  .lineBreak2{
+  .lineBreak2 {
     width: 100%;
     height: 2rem;
     /* background-color: red; */
   }
 
-  #TableBreakerVertical{
+  #TableBreakerVertical {
     width: 2px;
     background-color: rgb(137, 137, 137);
     height: 17rem;
@@ -1081,7 +1109,7 @@ font-family: 'Ubuntu', sans-serif; */
     display: none;
   }
 
-  #TableBreakerHorizontal{
+  #TableBreakerHorizontal {
     width: 92.1%;
     max-width: 29.1rem;
     background-color: rgb(137, 137, 137);
@@ -1093,7 +1121,7 @@ font-family: 'Ubuntu', sans-serif; */
     display: none;
   }
 
-  #TableBreakerHorizontal2{
+  #TableBreakerHorizontal2 {
     width: 92.1%;
     max-width: 29.1rem;
     background-color: rgb(137, 137, 137);
@@ -1105,28 +1133,28 @@ font-family: 'Ubuntu', sans-serif; */
     display: none;
   }
 
-  #TheUpdateSection{
+  #TheUpdateSection {
     top: 30rem;
     left: 2rem;
   }
 }
 
 @media (min-width:768px) {
-  #TheUpdateSection{
+  #TheUpdateSection {
     top: 30rem;
     left: 4rem;
   }
 
-  .importantDates{
+  .importantDates {
     /* margin-top: 4rem; */
     position: absolute;
     top: 5rem;
     left: 4rem;
   }
 
-  .TheTable{
+  .TheTable {
     display: grid;
-    grid-template-columns: 50% 50% ;
+    grid-template-columns: 50% 50%;
     -moz-column-gap: 1px;
          column-gap: 1px;
     row-gap: 10px;
@@ -1138,7 +1166,7 @@ font-family: 'Ubuntu', sans-serif; */
 
 /* THE UPDATES SECTION */
 
-.Updates{
+.Updates {
   list-style-type: disc;
   padding-left: 1rem;
   padding-right: 2rem;
@@ -1146,7 +1174,7 @@ font-family: 'Ubuntu', sans-serif; */
 
 /* THE IMPORTANT REMINDER SECTION */
 
-#ImportantReminderSection{
+#ImportantReminderSection {
   width: 100%;
   /* height: 100vh; */
   background-color: #F1F1F1;
@@ -1155,14 +1183,14 @@ font-family: 'Ubuntu', sans-serif; */
   padding-bottom: 0.6rem;
 }
 
-.ImportantRemaindersCards{
+.ImportantRemaindersCards {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.importantReminderCard{
+.importantReminderCard {
   width: 22rem;
   height: 20rem;
   background-color: white;
@@ -1172,7 +1200,7 @@ font-family: 'Ubuntu', sans-serif; */
 }
 
 @media (min-width:640px) {
-  #ImportantReminderSection{
+  #ImportantReminderSection {
     width: 100%;
     /* height: 100vh; */
     background-color: #F1F1F1;
@@ -1183,7 +1211,7 @@ font-family: 'Ubuntu', sans-serif; */
 }
 
 @media (min-width:768px) {
-  #ImportantReminderSection{
+  #ImportantReminderSection {
     width: 100%;
     /* height: 100vh; */
     background-color: #F1F1F1;
@@ -1194,14 +1222,14 @@ font-family: 'Ubuntu', sans-serif; */
 }
 
 @media (min-width:1280px) {
-  .ImportantRemaindersCards{
+  .ImportantRemaindersCards {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
   }
 
-  .importantReminderCard{
+  .importantReminderCard {
     width: 22rem;
     height: 20rem;
     background-color: white;
@@ -1213,14 +1241,14 @@ font-family: 'Ubuntu', sans-serif; */
 }
 
 @media (min-width:1546px) {
-  .ImportantRemaindersCards{
+  .ImportantRemaindersCards {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
   }
 
-  .importantReminderCard{
+  .importantReminderCard {
     width: 25rem;
     height: 23rem;
     background-color: white;
@@ -1230,7 +1258,7 @@ font-family: 'Ubuntu', sans-serif; */
     margin-bottom: 2rem;
   }
 
-  .linneBreak3{
+  .linneBreak3 {
     height: 1rem;
     width: 100%;
   }
