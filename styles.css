@@ -338,6 +338,7 @@ font-family: 'Ubuntu', sans-serif; */
     position: relative;
 
     padding-top: 10rem;
+
 }
 
 #TableBreakerVertical{
@@ -453,6 +454,135 @@ font-family: 'Ubuntu', sans-serif; */
 
 
 
+@media (min-width:640px) {
+    #ImportantDatesSection{
+
+        width: 100%;
+        /* height: 110svh; */
+    
+        background-color: #F1F1F1;
+    
+        padding: 1rem 4rem;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+        position: relative;
+    
+        padding-top: 10rem;
+
+    
+    }
+
+    .importantDates{
+
+        /* margin-top: 4rem; */
+        position: absolute;
+        top: 5rem;
+        left: 2rem;
+    }
+
+    .TheTable{
+        display: grid;
+        grid-template-columns: 50% 50% ;
+    
+        column-gap: 1px;
+        row-gap: 10px;
+    
+        /* border: 2px solid black; */
+        
+        position: absolute;
+        left: 2rem;
+    }
+
+    .lineBreak2{
+        width: 100%;
+        height: 2rem;
+    
+        /* background-color: red; */
+    }
+
+    #TableBreakerVertical{
+
+        width: 2px;
+        background-color: rgb(137, 137, 137);
+        height: 17rem;
+    
+        position: absolute;
+        top: 10rem;
+        /* left: 4rem; */
+
+        display: none;
+    }
+    
+    #TableBreakerHorizontal{
+        width: 92.1%;
+        max-width: 29.1rem;
+        background-color: rgb(137, 137, 137);
+        height: 2px;
+    
+        /* rotate: 90deg; */
+    
+        position: absolute;
+        top: 10rem;
+        left: 4rem;
+        display: none;
+    
+    }
+    
+    #TableBreakerHorizontal2{
+        width: 92.1%;
+        max-width: 29.1rem;
+        background-color: rgb(137, 137, 137);
+        height: 2px;
+    
+        /* rotate: 90deg; */
+    
+        position: absolute;
+        top: 13.4rem;
+        left: 4rem;
+        display: none;
+    
+    }
+
+    #TheUpdateSection{
+
+        top: 30rem;
+        left: 2rem;
+    }
+}
+
+@media (min-width:768px) {
+    #TheUpdateSection{
+
+        top: 30rem;
+        left: 4rem;
+    }
+
+    .importantDates{
+
+        /* margin-top: 4rem; */
+        position: absolute;
+        top: 5rem;
+        left: 4rem;
+    }
+
+    .TheTable{
+        display: grid;
+        grid-template-columns: 50% 50% ;
+    
+        column-gap: 1px;
+        row-gap: 10px;
+    
+        /* border: 2px solid black; */
+        
+        position: absolute;
+        left: 4rem;
+    }
+}
+
+
 
 
 
@@ -469,6 +599,7 @@ font-family: 'Ubuntu', sans-serif; */
 
     list-style-type: disc;
     padding-left: 1rem;
+    padding-right: 2rem;
 }
 
 
@@ -511,6 +642,33 @@ font-family: 'Ubuntu', sans-serif; */
     padding: 1rem;
 }
 
+@media (min-width:640px) {
+
+    #ImportantReminderSection{
+
+    width: 100%;
+    /* height: 100vh; */
+    background-color: #F1F1F1;
+    /* background-color: red; */
+
+    padding: 4rem 2rem;
+    padding-bottom: 0.6rem;
+}
+}
+
+@media (min-width:768px) {
+
+    #ImportantReminderSection{
+
+    width: 100%;
+    /* height: 100vh; */
+    background-color: #F1F1F1;
+    /* background-color: red; */
+
+    padding: 4rem 4rem;
+    padding-bottom: 0.6rem;
+}
+}
 
 
 /* THE CONTACT US SECTION */
