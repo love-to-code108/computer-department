@@ -816,7 +816,7 @@ font-family: 'Ubuntu', sans-serif; */
   position: absolute;
   opacity: 1;
   width: 40rem;
-  right: 4rem;
+  right: 6rem;
 }
 
 @keyframes ScrollBottomHook {
@@ -854,6 +854,11 @@ font-family: 'Ubuntu', sans-serif; */
 }
 
 @media (min-width:1024px) {
+  #HeroSection {
+    padding-top: 4rem;
+    padding-left: 6rem;
+  }
+
   .scrollHook {
     position: absolute;
     bottom: 0;
@@ -864,12 +869,36 @@ font-family: 'Ubuntu', sans-serif; */
     animation-iteration-count: infinite;
     animation-direction: alternate;
   }
+
+  #conferenceLogoLowOpacity{
+    position: absolute;
+    opacity: 1;
+    width: 30rem;
+    right: 6rem;
+  }
 }
 
 @media (min-width:1536px) {
   #HeroSection {
     padding-top: 4rem;
     padding-left: 6rem;
+  }
+
+  #conferenceLogoLowOpacity{
+    position: absolute;
+    opacity: 1;
+    width: 40rem;
+    right: 6rem;
+  }
+}
+
+@media (max-width:1205px) {
+  #conferenceLogoLowOpacity{
+    position: absolute;
+    opacity: 1;
+    width: 40rem;
+    right: 6rem;
+    display: none;
   }
 }
 
@@ -1343,6 +1372,18 @@ font-family: 'Ubuntu', sans-serif; */
   .lg\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .xl\:text-8xl {
+    font-size: 6rem;
+    line-height: 1;
   }
 }
 
