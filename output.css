@@ -741,6 +741,8 @@ font-family: 'Ubuntu', sans-serif; */
   position: fixed;
   top: 0;
   z-index: +100;
+  /* FOR EXTRA LARGE SCREENS */
+  max-width: 1920px;
 }
 
 #hamburgerMenu {
@@ -797,6 +799,7 @@ font-family: 'Ubuntu', sans-serif; */
   align-items: center;
   justify-content: center;
   padding: 0 2rem;
+  max-width: 1920px;
 }
 
 .scrollHook {
@@ -877,6 +880,7 @@ font-family: 'Ubuntu', sans-serif; */
   /* background-color: red; */
   background-color: #F1F1F1;
   position: relative;
+  max-width: 1920px;
 }
 
 .slidingWritingWrapper {
@@ -978,6 +982,7 @@ font-family: 'Ubuntu', sans-serif; */
   align-items: center;
   position: relative;
   padding-top: 10rem;
+  max-width: 1920px;
 }
 
 #TableBreakerVertical {
@@ -1185,6 +1190,7 @@ font-family: 'Ubuntu', sans-serif; */
   /* background-color: red; */
   padding: 4rem 1rem;
   padding-bottom: 0.6rem;
+  max-width: 1920px;
 }
 
 .ImportantRemaindersCards {
@@ -1269,6 +1275,12 @@ font-family: 'Ubuntu', sans-serif; */
 }
 
 /* THE CONTACT US SECTION */
+
+/* THE ROOT SECTION FOR EXTRA LARGE SCREENS */
+
+#Root{
+  background-color: #555555;
+}
 
 @media (min-width: 640px) {
   .sm\:absolute {

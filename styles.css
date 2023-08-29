@@ -81,6 +81,10 @@ font-family: 'Ubuntu', sans-serif; */
 
     z-index: +100;
 
+
+    /* FOR EXTRA LARGE SCREENS */
+    max-width: 1920px;
+
 }
 
 #hamburgerMenu {
@@ -151,6 +155,8 @@ font-family: 'Ubuntu', sans-serif; */
     justify-content: center;
 
     padding: 0 2rem;
+
+    max-width: 1920px;
 }
 
 
@@ -255,6 +261,8 @@ font-family: 'Ubuntu', sans-serif; */
     background-color: #F1F1F1;
 
     position: relative;
+
+    max-width: 1920px;
 }
 
 .slidingWritingWrapper {
@@ -409,6 +417,8 @@ font-family: 'Ubuntu', sans-serif; */
     position: relative;
 
     padding-top: 10rem;
+
+    max-width: 1920px;
 
 }
 
@@ -622,6 +632,8 @@ font-family: 'Ubuntu', sans-serif; */
 
         top: 30rem;
         left: 2rem;
+
+        
     }
 }
 
@@ -680,6 +692,8 @@ font-family: 'Ubuntu', sans-serif; */
 
 
 
+
+
 /* THE IMPORTANT REMINDER SECTION */
 #ImportantReminderSection {
 
@@ -690,6 +704,8 @@ font-family: 'Ubuntu', sans-serif; */
 
     padding: 4rem 1rem;
     padding-bottom: 0.6rem;
+
+    max-width: 1920px;
 }
 
 
@@ -799,4 +815,25 @@ font-family: 'Ubuntu', sans-serif; */
 
 
 
+
+
 /* THE CONTACT US SECTION */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* THE ROOT SECTION FOR EXTRA LARGE SCREENS */
+#Root{
+
+    background-color: #555555;
+}
