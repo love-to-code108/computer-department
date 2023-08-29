@@ -176,6 +176,15 @@ font-family: 'Ubuntu', sans-serif; */
 
 }
 
+#conferenceLogoLowOpacity{
+
+    position: absolute;
+    opacity: 1;
+    width: 40rem;
+
+    right: 4rem;
+}
+
 @keyframes ScrollBottomHook {
     from {
         transform: translateY(-1rem);
@@ -244,6 +253,8 @@ font-family: 'Ubuntu', sans-serif; */
         padding-top: 4rem;
         padding-left: 6rem;
     }
+
+
 }
 
 /* ======================================== */
@@ -306,7 +317,7 @@ font-family: 'Ubuntu', sans-serif; */
 
 
 
-@media (max-width:1920px) {
+@media (min-width:768px) {
     #image1 {
 
         background-image: url(./assets/jpg/yuvraj-verma-W4Z1ldLAaAQ-unsplash.jpg);
@@ -331,6 +342,7 @@ font-family: 'Ubuntu', sans-serif; */
 
 
 }
+
 
 @media (max-width:768px) {
 
