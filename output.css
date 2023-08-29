@@ -1429,6 +1429,11 @@ font-family: 'Ubuntu', sans-serif; */
     line-height: 1;
   }
 
+  .\32xl\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+
   .\32xl\:text-8xl {
     font-size: 6rem;
     line-height: 1;
@@ -1442,5 +1447,10 @@ font-family: 'Ubuntu', sans-serif; */
   .\32xl\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .\32xl\:text-9xl {
+    font-size: 8rem;
+    line-height: 1;
   }
 }
