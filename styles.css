@@ -87,6 +87,18 @@ font-family: 'Ubuntu', sans-serif; */
 
 }
 
+.navBarLogo{
+
+    position: absolute;
+    left: 8rem;
+}
+
+.navBarLogoUem{
+
+    position: absolute;
+    left: 2rem;
+}
+
 #hamburgerMenu {
     position: absolute;
     /* border: 2px solid black; */
@@ -183,6 +195,8 @@ font-family: 'Ubuntu', sans-serif; */
     width: 40rem;
 
     right: 6rem;
+
+    
 }
 
 @keyframes ScrollBottomHook {
@@ -885,5 +899,5 @@ font-family: 'Ubuntu', sans-serif; */
 /* THE ROOT SECTION FOR EXTRA LARGE SCREENS */
 #Root{
 
-    background-color: #555555;
+    background-color: #E9E9E9;
 }
