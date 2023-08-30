@@ -600,6 +600,10 @@ video {
   height: 1.5rem;
 }
 
+.w-\[3\/5\] {
+  width: 3/5;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -660,8 +664,17 @@ video {
   line-height: 1.25rem;
 }
 
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .font-black {
   font-weight: 900;
+}
+
+.font-extrabold {
+  font-weight: 800;
 }
 
 .text-\[\#393464\] {
@@ -761,6 +774,7 @@ font-family: 'Ubuntu', sans-serif; */
   height: 1.8rem;
   width: 2.6rem;
   right: 1rem;
+  cursor: pointer;
 }
 
 .hamburgerMenuBars {
@@ -796,6 +810,108 @@ font-family: 'Ubuntu', sans-serif; */
 
 .orgLogoEdit {
   height: 3rem;
+}
+
+#NavBarLargeScreen{
+  display: none;
+}
+
+@media (min-width:1092px) {
+  #hamburgerMenu{
+    display: none;
+    pointer-events: none;
+  }
+
+  #NavBarLargeScreen{
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 1.2rem;
+  }
+
+  .pointer{
+    cursor: pointer;
+  }
+
+  .HoverUnderline1::after{
+    content: '';
+    background-color: #ed3237;
+    width: 0%;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform-origin: center;
+    transition: 0.2s;
+  }
+
+  .HoverUnderline1:hover::after{
+    width: 69%;
+  }
+
+  .HoverUnderline2::after{
+    content: '';
+    background-color: #ed3237;
+    width: 0%;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform-origin: center;
+    transition: 0.2s;
+  }
+
+  .HoverUnderline2:hover::after{
+    width: 73%;
+  }
+
+  .HoverUnderline3::after{
+    content: '';
+    background-color: #ed3237;
+    width: 0%;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform-origin: center;
+    transition: 0.2s;
+  }
+
+  .HoverUnderline3:hover::after{
+    width: 60%;
+  }
+
+  .HoverUnderline4::after{
+    content: '';
+    background-color: #ed3237;
+    width: 0%;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform-origin: center;
+    transition: 0.2s;
+  }
+
+  .HoverUnderline4:hover::after{
+    width: 81%;
+  }
+
+  .HoverUnderline5::after{
+    content: '';
+    background-color: #ed3237;
+    width: 0%;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform-origin: center;
+    transition: 0.2s;
+  }
+
+  .HoverUnderline5:hover::after{
+    width: 73%;
+  }
 }
 
 /* THE HERO SECTION  */
@@ -1402,6 +1518,10 @@ font-family: 'Ubuntu', sans-serif; */
 }
 
 @media (min-width: 1536px) {
+  .\32xl\:mr-12 {
+    margin-right: 3rem;
+  }
+
   .\32xl\:flex {
     display: flex;
   }
@@ -1429,11 +1549,6 @@ font-family: 'Ubuntu', sans-serif; */
     line-height: 1;
   }
 
-  .\32xl\:text-7xl {
-    font-size: 4.5rem;
-    line-height: 1;
-  }
-
   .\32xl\:text-8xl {
     font-size: 6rem;
     line-height: 1;
@@ -1447,10 +1562,5 @@ font-family: 'Ubuntu', sans-serif; */
   .\32xl\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
-  }
-
-  .\32xl\:text-9xl {
-    font-size: 8rem;
-    line-height: 1;
   }
 }
