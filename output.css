@@ -765,7 +765,12 @@ font-family: 'Ubuntu', sans-serif; */
 
 .navBarLogoUem{
   position: absolute;
-  left: 2rem;
+  /* left: 2rem; */
+}
+
+.conferenceLogoNavbar{
+  position: absolute;
+  left: 1.5rem;
 }
 
 #hamburgerMenu {
@@ -814,6 +819,18 @@ font-family: 'Ubuntu', sans-serif; */
 
 #NavBarLargeScreen{
   display: none;
+}
+
+@media (min-width:768px) {
+  .navBarLogoUem{
+    position: absolute;
+    left: 2rem;
+  }
+
+  .conferenceLogoNavbar{
+    position: absolute;
+    left: 8.5rem;
+  }
 }
 
 @media (min-width:1092px) {
@@ -1437,6 +1454,42 @@ font-family: 'Ubuntu', sans-serif; */
 }
 
 /* THE CONTACT US SECTION */
+
+#ContactUs{
+  width: 100%;
+  max-width: 1920px;
+  height: 18.75rem;
+  background-color: #D6D6D6;
+  padding: 2rem 2rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ContactUsHeading{
+  position: absolute;
+  left: 2rem;
+  top: 2rem;
+}
+
+.uemLogoContactSection{
+  position: absolute;
+  bottom:0;
+}
+
+.conferenceLogo{
+  position: absolute;
+  right: 2rem;
+  display: none;
+}
+
+@media (min-width:768px) {
+  .conferenceLogo{
+    display: flex;
+    opacity: 0.4;
+  }
+}
 
 /* THE ROOT SECTION FOR EXTRA LARGE SCREENS */
 
